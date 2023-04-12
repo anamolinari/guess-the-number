@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Início da seção principal -->
+    <section class="container">
+        <h1 class="titulo__container">I'm thinking a number between 1-100.</h1>
+        <h2 class="subtitulo__container">Can you guess it?</h2>
+
+        <!-- Formulário para o usuário digitar o palpite -->
+        <div class="form">
+            <label class="form__campo"></label>
+            <input type="number" min="1" max="100" required id="form__guess" class="form__guess" placeholder="Your Guess">
+            <p class="palpites"></p>
+            <p class="baixoOuAlto"></p>
+        </div>
+
+        <!-- Teclado virtual para facilitar a digitação do palpite -->
+        <div class="teclado_virtual">
+            <div><button id="tecla-1" class="button_teclado" value="1">1</button></div>
+            <div><button id="tecla-2" class="button_teclado" value="2">2</button></div>
+            <div><button id="tecla-3" class="button_teclado" value="3">3</button></div>
+            <div><button id="tecla-4" class="button_teclado" value="4">4</button></div>
+            <div><button id="tecla-5" class="button_teclado" value="5">5</button></div>
+            <div><button id="tecla-6" class="button_teclado" value="6">6</button></div>
+            <div><button id="tecla-7" class="button_teclado" value="7">7</button></div>
+            <div><button id="tecla-8" class="button_teclado" value="8">8</button></div>
+            <div><button id="tecla-9" class="button_teclado" value="9">9</button></div>
+            <div><button id="nulo" class="button_teclado" value="null">&nbsp;</button></div>
+            <div><button id="tecla-0" class="button_teclado" value="0">0</button></div>
+
+            <!-- Botão "Enter" para confirmar o palpite -->
+            <div><button id="button_enter" class="button_enter excluir-opacidade" value="null"><img src="./assets/arrow-right.svg" alt="Enter"></button></div>
+        </div>
+    </section>
+    
+    <!-- Script JS para manipulação do jogo -->
+    <script src="main.js"></script>
+
+</body>
+</html>
