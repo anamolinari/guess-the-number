@@ -27,6 +27,10 @@ body {
     outline: none;
 }
 
+input.disabled {
+    caret-color: transparent !important;
+}
+
 .container {
     background: linear-gradient(180deg, #3B3E47 0%, #23252C 100%);
     box-shadow: 0px 64px 64px -15px rgba(0, 0, 0, 0.4), inset 2px 2px 4px rgba(255, 255, 255, 0.08);
