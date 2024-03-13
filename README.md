@@ -48,9 +48,9 @@ If the player fails to guess the number within 5 attempts, a message appears on 
 
 ## Project access
 
-To access the project's source code, please [click here](https://anamolinari.github.io/guess-the-number/).
+To access the project's source code, please <a href="https://anamolinari.github.io/guess-the-number/" target="_blank">click here</a>.
 
-Additionally, you can review the layout on Figma by [clicking here](https://www.figma.com/file/TcXf4Jt6YATA25ydFsWOXn/Guess-The-Number---Game?type=design&node-id=0%3A1&mode=dev&t=yMCdeae55F9DxwKR-1).
+Additionally, you can review the layout on Figma by <a href="https://www.figma.com/file/TcXf4Jt6YATA25ydFsWOXn/Guess-The-Number---Game?type=design&node-id=0%3A1&mode=dev&t=yMCdeae55F9DxwKR-1" target="_blank">clicking here</a>.
 
 ## Developer
 [Ana Molinari](https://www.linkedin.com/in/anahmolinari/)
