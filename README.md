@@ -19,30 +19,21 @@ If the player fails to guess the number within 5 attempts, a message appears on 
 ## Features
 
 - The player has 5 chances to guess a random number between 1 and 100.
-
 - This number is automatically generated through the code "Math.floor(Math.random() * 100) + 1;".
-
 - It is possible to make a guess using the virtual keyboard, mouse, or the computer's physical keyboard.
-
 - Letters, special characters, negative numbers, or numbers above 100 are not accepted.
-
 - After each guess, feedback is displayed on the screen to inform whether the guess was high or low.
-
 - The player's guess is displayed and remains visible on the screen.
-
 - If the player guesses the random number correctly, they will be informed through a message on the screen.
-
 - If the player does not guess the number within the 5 attempts, a defeat message is displayed.
-
 - In both cases, the option to play again is available to the user.
-
 - In addition to text, messages can also be distinguished by color: green for victory and red for defeat.
 
 ## Tools used
 
 - HTML5
 - CSS3
-- JAVASCRIPT
+- JavaScript
 
 ###
 
