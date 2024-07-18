@@ -4,7 +4,7 @@
 Is a simple game in which the player needs to guess a random number between 1 and 100.
 
 <div align="center">
-<img width="1910" alt="guess-the-number-ana-molinari" src="https://user-images.githubusercontent.com/121121296/230516979-d3e54ec0-a9d5-494f-aad4-d36ea6ec25bb.png">
+<img src="https://i.imgur.com/6HQtfV5.gif">
 </div>
 
 ## Project description
