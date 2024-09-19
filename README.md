@@ -4,7 +4,7 @@
 Is a simple game in which the player needs to guess a random number between 1 and 100.
 
 <div align="center">
-<img src="https://i.imgur.com/6HQtfV5.gif">
+<img src="https://i.imgur.com/6HQtfV5.gif" width="800">
 </div>
 
 ## Project description
