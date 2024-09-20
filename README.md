@@ -1,25 +1,25 @@
 <h1 align="center">GUESS THE NUMBER</h1>
 
 <p align="center">
-Is a simple game in which the player needs to guess a random number between 1 and 100.
+This is a simple game in which the player needs to guess a random number between 1 and 100.
 
 <div align="center">
 <img src="https://i.imgur.com/6HQtfV5.gif" width="800">
 </div>
 
-## Project description
+## Project Description
 
 <p align="justify">
 The interface was developed in Figma and implemented using HTML, CSS, and JavaScript.
 
-The game has a maximum limit of 5 guesses per round and provides real-time feedback, indicating whether the number guessed was too high or too low.
+The game has a maximum limit of 5 guesses per round and provides real-time feedback, indicating whether the guessed number is too high or too low.
 
 If the player fails to guess the number within 5 attempts, a message appears on the screen indicating that the limit has been reached. On the other hand, if the player guesses the number correctly, a victory message is displayed, and in both cases, a "play again" button is available at the end of the game.
 
 ## Features
 
 - The player has 5 chances to guess a random number between 1 and 100.
-- This number is automatically generated through the code "Math.floor(Math.random() * 100) + 1;".
+-   This number is automatically generated using the code `Math.floor(Math.random() * 100) + 1;`.
 - It is possible to make a guess using the virtual keyboard, mouse, or the computer's physical keyboard.
 - Letters, special characters, negative numbers, or numbers above 100 are not accepted.
 - After each guess, feedback is displayed on the screen to inform whether the guess was high or low.
@@ -29,7 +29,7 @@ If the player fails to guess the number within 5 attempts, a message appears on 
 - In both cases, the option to play again is available to the user.
 - In addition to text, messages can also be distinguished by color: green for victory and red for defeat.
 
-## Tools used
+## Tools Used
 
 - HTML5
 - CSS3
@@ -37,7 +37,7 @@ If the player fails to guess the number within 5 attempts, a message appears on 
 
 ###
 
-## Project access
+## Project Access
 
 To access the project's source code, please <a href="https://anamolinari.github.io/guess-the-number/" target="_blank">click here</a>.
 
